@@ -1,0 +1,15 @@
+{
+  "name": "animolz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "animolz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wight554",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.9"
+  }
+}
