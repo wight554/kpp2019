@@ -1,0 +1,22 @@
+<h1>todolist</h1>
+
+<table>
+    <tbody>
+        <% tasks.forEach((task,idx) => {  %>
+            <tr>
+            <td><%= task.name %></td>
+            <td>
+                <a href="/tasks/<%= task._id %>">Show</a>
+                &nbsp;
+                <a href="/tasks/<%= task._id %>/edit">Edit</a>
+                &nbsp;
+                <a href="/tasks/<%= task._id %>/destroy">Delete</a>
+            </td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
+
+<div>
+    <a href="/tasks/new">new todo</a>
+</div>

@@ -1,0 +1,16 @@
+<h1>edit todo</h1>
+
+<div>Current name: <%= task.name %></div>
+
+<form action="/tasks/<%= task._id %>/update" method="POST">
+    <div>
+        <label>
+            <input name="name" placeholder="enter new task name" />
+        </label>
+    </div>
+    <input type="submit" value="Submit" />
+</form>
+
+<div>
+    <a href="/">Back</a>
+</div>
